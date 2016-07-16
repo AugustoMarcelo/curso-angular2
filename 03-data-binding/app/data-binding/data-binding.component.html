@@ -1,0 +1,14 @@
+<section class="property-binding">
+    <article>
+        <h3>Interpolation / Interpolação</h3>
+        <p>String renderizada com interpolation {{ url }}</p>
+        <p>1 + 1 não é {{getValor()}} </p>
+    </article>
+
+    <article>
+        <h3>Property Binding</h3>
+        <img src="{{ urlImg }}"/>
+        <img [src]="urlImg"/>
+        <img bind-src="urlImg"/>
+    </article>
+</section>
